@@ -156,7 +156,8 @@
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="back_wake_screen"
             android:title="@string/button_wake_title"
-            android:defaultValue="false" />
+            android:defaultValue="false" 
+	    android:layout="@layout/empty_layout" />
 
     </PreferenceCategory>
 
@@ -168,7 +169,8 @@
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="menu_wake_screen"
             android:title="@string/button_wake_title"
-            android:defaultValue="false" />
+            android:defaultValue="false" 
+	    android:layout="@layout/empty_layout" />
 
     </PreferenceCategory>
 
@@ -180,7 +182,8 @@
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="assist_wake_screen"
             android:title="@string/button_wake_title"
-            android:defaultValue="false" />
+            android:defaultValue="false" 
+	    android:layout="@layout/empty_layout"/>
 
     </PreferenceCategory>
 
@@ -192,7 +195,8 @@
         <cyanogenmod.preference.CMSystemSettingSwitchPreference
             android:key="app_switch_wake_screen"
             android:title="@string/button_wake_title"
-            android:defaultValue="false" />
+            android:defaultValue="false" 
+	    android:layout="@layout/empty_layout"/>
 
     </PreferenceCategory>
 
