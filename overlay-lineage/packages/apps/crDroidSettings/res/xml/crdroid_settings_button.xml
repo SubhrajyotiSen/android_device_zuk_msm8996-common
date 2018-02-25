@@ -127,6 +127,13 @@
         android:key="menu_key"
         android:title="@string/hardware_keys_swipe_right_key_title" >
 
+        <lineageos.preference.LineageSystemSettingSwitchPreference
+            android:key="menu_wake_screen"
+            android:icon="@drawable/ic_wake"
+            android:title="@string/button_wake_title"
+            android:summary="@string/button_wake_summary"
+            android:defaultValue="false" />
+
         <ListPreference
             android:key="hardware_keys_menu_press"
             android:icon="@drawable/ic_single_tap"
@@ -139,8 +146,28 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="back_key"
+        android:title="@string/hardware_keys_back_key_title" >
+
+        <lineageos.preference.LineageSystemSettingSwitchPreference
+            android:key="back_wake_screen"
+            android:icon="@drawable/ic_wake"
+            android:title="@string/button_wake_title"
+            android:summary="@string/button_wake_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="app_switch_key"
         android:title="@string/hardware_keys_swipe_left_key_title" >
+
+        <lineageos.preference.LineageSystemSettingSwitchPreference
+            android:key="app_switch_wake_screen"
+            android:icon="@drawable/ic_wake"
+            android:title="@string/button_wake_title"
+            android:summary="@string/button_wake_summary"
+	    android:defaultValue="false" />        
 
         <ListPreference
             android:key="hardware_keys_app_switch_press"
@@ -156,6 +183,13 @@
     <PreferenceCategory
         android:key="assist_key"
         android:title="@string/hardware_keys_long_tap_key_title" >
+
+        <lineageos.preference.LineageSystemSettingSwitchPreference
+            android:key="assist_wake_screen"
+            android:icon="@drawable/ic_wake"
+            android:title="@string/button_wake_title"
+            android:summary="@string/button_wake_summary"
+	    android:defaultValue="false" />
 
 	<ListPreference
             android:key="hardware_keys_assist_press"
